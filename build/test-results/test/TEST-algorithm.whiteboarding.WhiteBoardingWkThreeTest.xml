@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="algorithm.whiteboarding.WhiteBoardingWkThreeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-26T18:11:18" hostname="macs-MacBook-Pro.local" time="0.027">
+  <properties/>
+  <testcase name="testWhiteBoardingWkThree" classname="algorithm.whiteboarding.WhiteBoardingWkThreeTest" time="0.027"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
