@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="algorithm.whiteboarding.WhiteBoardingWeekFiveTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-02-03T10:46:34" hostname="macs-MacBook-Pro.local" time="0.047">
+  <properties/>
+  <testcase name="whiteBoardingFiveSolutionRunWithinTime" classname="algorithm.whiteboarding.WhiteBoardingWeekFiveTest" time="0.044"/>
+  <testcase name="whiteBoardingFiveSolutionThrowsExceptionOnTimeLimitExceeded" classname="algorithm.whiteboarding.WhiteBoardingWeekFiveTest" time="0.001"/>
+  <testcase name="whiteBoardingFiveSolutionReturnCorrectAnswer" classname="algorithm.whiteboarding.WhiteBoardingWeekFiveTest" time="0.001"/>
+  <system-out><![CDATA[startTime: 0:00
+endTime: 0.037999868392944336
+startTime: 0:00
+endTime: 0.0
+startTime: 0:00
+endTime: 0.0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

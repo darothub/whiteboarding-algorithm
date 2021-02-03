@@ -18,6 +18,6 @@ internal class WhiteBoardingWeekFourTest {
             WhiteBoardingWeekFour.frogJump(X, Y, D)
         }
 
-        assert(actual == expected)
+        assert(actual == expected.first)
     }
 }
