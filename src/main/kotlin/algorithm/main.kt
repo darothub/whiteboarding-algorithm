@@ -2,6 +2,7 @@
 package algorithm
 import algorithm.whiteboarding.WhiteBoardingWeekFive
 import algorithm.whiteboarding.WhiteBoardingWeekFour
+import java.util.*
 
 
 fun main(){
@@ -11,6 +12,9 @@ fun main(){
         val K = 3
         WhiteBoardingWeekFive.solution(A, K)
     }
+    val linkedList = LinkedList<Int>(arrayListOf(10, 11, 12))
+    linkedList.addFirst(10)
+    linkedList.add(11)
     println(expected.first.asList())
 
 
