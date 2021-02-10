@@ -48,9 +48,26 @@ class WhiteBoardingWeekFive {
 //        each element of array A is an integer within the range [−1,000..1,000].
 //        In your solution, focus on correctness. The performance of your solution will not be the focus of the assessment.
         fun solution(A: IntArray, K: Int): IntArray {
+            if (A.isEmpty()) {
+                return A
+            } else {
+                var argArr = A.asList()
+                var k = K
+                val i = A.lastIndex
+                while (k > 0) {
+                    val arr = arrayListOf<Int>()
+                    arr.add(argArr[i])
+                    arr.addAll(argArr.subList(0, argArr.lastIndex))
+                    argArr = arr
+                    k--
 
+                }
+                return argArr.toIntArray()
+            }
 
         }
 
     }
 }
+
+
