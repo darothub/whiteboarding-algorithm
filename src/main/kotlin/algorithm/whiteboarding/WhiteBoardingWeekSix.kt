@@ -33,8 +33,14 @@ class WhiteBoardingWeekSix {
 //        each element of array A is an integer within the range [1..(N + 1)].
         fun solution(A: IntArray): Int {
 
+            var sumOfAllNumbers = 0
+            for (num in A) sumOfAllNumbers += num
+            val N = A.size.toLong()
+            val expectedSumOfAllNumbers = (N + 1) * (N + 2) / 2
 
-            return 0
+            val missingNumber = expectedSumOfAllNumbers - sumOfAllNumbers
+
+            return missingNumber.toInt()
 
         }
 

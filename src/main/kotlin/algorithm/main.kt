@@ -9,12 +9,9 @@ import java.util.*
 fun main(){
 
     val expected = measureTimeMillis {
-        val A = intArrayOf(2, 3, 1)
+        val A = intArrayOf(20, 21, 22)
         WhiteBoardingWeekSix.solution(A)
     }
-    val linkedList = LinkedList<Int>(arrayListOf(10, 11, 12))
-    linkedList.addFirst(10)
-    linkedList.add(11)
     println(expected.first)
 
 
