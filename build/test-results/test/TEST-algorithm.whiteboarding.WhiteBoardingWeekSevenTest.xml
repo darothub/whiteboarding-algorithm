@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="algorithm.whiteboarding.WhiteBoardingWeekSevenTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-17T09:30:17" hostname="macs-MacBook-Pro.local" time="0.021">
+  <properties/>
+  <testcase name="whiteBoardingSevenSolutionReturnCorrectAnswerForSevenItems" classname="algorithm.whiteboarding.WhiteBoardingWeekSevenTest" time="0.021"/>
+  <system-out><![CDATA[startTime: 0:00
+endTime: 0.015999794006347656
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
