@@ -38,6 +38,7 @@ class WhiteBoardingWeekSeven {
 
         fun solution(A: IntArray):Int{
             return 0
+
         }
 
     }
