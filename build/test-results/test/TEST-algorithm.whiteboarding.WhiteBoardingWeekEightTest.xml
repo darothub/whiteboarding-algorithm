@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="algorithm.whiteboarding.WhiteBoardingWeekEightTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-02-24T10:41:11" hostname="macs-MacBook-Pro.local" time="0.013">
+  <properties/>
+  <testcase name="whiteBoardingSevenSolutionReturnCorrectAnswerRandomItems" classname="algorithm.whiteboarding.WhiteBoardingWeekEightTest" time="0.011"/>
+  <testcase name="whiteBoardingSevenSolutionReturnCorrectAnswerForTwoItem" classname="algorithm.whiteboarding.WhiteBoardingWeekEightTest" time="0.001"/>
+  <testcase name="whiteBoardingSevenSolutionReturnCorrectAnswerForFiveItems" classname="algorithm.whiteboarding.WhiteBoardingWeekEightTest" time="0.001"/>
+  <system-out><![CDATA[startTime: 0:00
+endTime: 0.005000114440917969
+startTime: 0:00
+endTime: 0.0
+startTime: 0:00
+endTime: 0.0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

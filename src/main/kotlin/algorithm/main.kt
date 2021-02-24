@@ -1,14 +1,14 @@
 @file:JvmName("Main")
 package algorithm
 
-import algorithm.whiteboarding.WhiteBoardingWeekSeven
+import algorithm.whiteboarding.WhiteBoardingWeekEight
 
 
 fun main(){
 
     val expected = measureTimeMillis {
-        val a = intArrayOf(9, 3, 9, 3, 9, 7, 9)
-        WhiteBoardingWeekSeven.solution(a)
+        val a = intArrayOf(-3, -1, -2, -4, -3)
+        WhiteBoardingWeekEight.solution(a)
     }
     println(expected.first)
 
