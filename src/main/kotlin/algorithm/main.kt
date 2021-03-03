@@ -1,16 +1,35 @@
 @file:JvmName("Main")
 package algorithm
 
+import algorithm.whiteboarding.BinaryNode
 import algorithm.whiteboarding.WhiteBoardingWeekEight
+import algorithm.whiteboarding.binaryTreeHeight
 
 
 fun main(){
 
-    val expected = measureTimeMillis {
-        val a = intArrayOf(-3, -1, -2, -4, -3)
-        WhiteBoardingWeekEight.solution(a)
-    }
-    println(expected.first)
+
+
+    val zero = BinaryNode(0)
+    val one = BinaryNode(1)
+    val five = BinaryNode(5)
+    val seven = BinaryNode(7)
+    val eight = BinaryNode(8)
+    val nine = BinaryNode(9)
+
+
+    seven.leftChild = one
+    one.leftChild = zero
+    one.rightChild = five
+    seven.rightChild = nine
+    nine.leftChild = eight
+
+
+    val tree = seven
+
+    val height = binaryTreeHeight(tree)
+
+    println(height)
 
 
 
