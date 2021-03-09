@@ -9,9 +9,7 @@ import algorithm.whiteboarding.lengthOfLongestSubstring
 
 fun main(){
 
-
-   lengthOfLongestSubstring("codingisawesome") // Answer 7
-
+   lengthOfLongestSubstring("codingisawesome") // Answer = 7
 
 }
 
