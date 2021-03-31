@@ -1,15 +1,14 @@
 @file:JvmName("Main")
 package algorithm
 
-import algorithm.whiteboarding.BinaryNode
-import algorithm.whiteboarding.WhiteBoardingWeekEight
-import algorithm.whiteboarding.binaryTreeHeight
-import algorithm.whiteboarding.lengthOfLongestSubstring
+import algorithm.whiteboarding.*
 
 
 fun main(){
 
-   lengthOfLongestSubstring("codingisawesome") // Answer = 7
+    println(twoSum(intArrayOf(3,2,4), 6).toList())
+    println(twoSum(intArrayOf(2,7,11,15), 6).toList())
+    println(twoSum(intArrayOf(3,3), 6).toList())
 
 }
 
