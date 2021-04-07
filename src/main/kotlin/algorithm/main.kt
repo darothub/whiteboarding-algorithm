@@ -1,15 +1,15 @@
 @file:JvmName("Main")
 package algorithm
 
-import algorithm.whiteboarding.BinaryNode
-import algorithm.whiteboarding.WhiteBoardingWeekEight
-import algorithm.whiteboarding.binaryTreeHeight
-import algorithm.whiteboarding.lengthOfLongestSubstring
+import algorithm.whiteboarding.*
 
 
 fun main(){
 
-   lengthOfLongestSubstring("codingisawesome") // Answer = 7
+    println(WhiteBoardingWeekTwo.reverse(123)) // 321
+    println(WhiteBoardingWeekTwo.reverse(-123)) // -321
+    println(WhiteBoardingWeekTwo.reverse(120)) // 12
+    println(WhiteBoardingWeekTwo.reverse(1534236469)) // 0
 
 }
 
