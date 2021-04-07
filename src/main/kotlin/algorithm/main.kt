@@ -6,9 +6,10 @@ import algorithm.whiteboarding.*
 
 fun main(){
 
-    println(twoSum(intArrayOf(3,2,4), 6).toList())
-    println(twoSum(intArrayOf(2,7,11,15), 6).toList())
-    println(twoSum(intArrayOf(3,3), 6).toList())
+    println(WhiteBoardingWeekTwo.reverse(123)) // 321
+    println(WhiteBoardingWeekTwo.reverse(-123)) // -321
+    println(WhiteBoardingWeekTwo.reverse(120)) // 12
+    println(WhiteBoardingWeekTwo.reverse(1534236469)) // 0
 
 }
 
